@@ -1,0 +1,83 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  
+  .left-side {
+    display: flex;
+  }
+  
+  .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .active-nav-link {
+    border-bottom: 1px solid black;
+  }
+  
+  .active-nav-link a {
+    color: black !important;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: rgba(37, 58, 78, 0.507);
+  }
+  
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .portfolio-item-wrapper {
+    position: relative;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+  }
+
+  body {
+      background-color: black;
+      
+  }
+  .brand {
+      color: #8a8a8a;
+  }
